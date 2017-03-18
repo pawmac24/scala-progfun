@@ -14,7 +14,7 @@ object scratch{
   - As an element type of empty collections
   The type of this expression below is Nothing.
   */
-  def error(msg: String) = throw new Error(msg)
+  def error(msg: String) = throw new Error(msg) //Nothing
   //error("test")
 
   /*
@@ -28,5 +28,5 @@ object scratch{
   val y: String = null //y: String
   //val z: Int = null //error: type mismatch
 
-  if (true) 1 else false
+  if (true) 1 else false //AnyVal
 }
