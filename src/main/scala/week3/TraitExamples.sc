@@ -1,8 +1,13 @@
 //Classes, objects and traits can inherit from
-// at most one class but arbitrary many traits
+//at most one class but arbitrary many traits
 
 //A trait is declared like an abstract class,
-// just with trait instead of abstract class.
+//just with trait instead of abstract class.
+
+//Traits resemble interfaces in Java,
+//but are more powerful because
+//they can contains fields and concrete methods.
+
 object traits{
   val s1 = new Square(5)
   val surface = s1.surface
